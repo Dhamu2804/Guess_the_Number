@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="hea">Number Guess Application</h1>
+        <p class="par">Select a Number Between 1 and 100</p>
+        <label class="lab">Guess a Number</label>
+        <input type="number" placeholder="Enter the Guess the Number" id="n1">
+        <br>
+        <h1 id="res">Wait for Reult</h1>
+        <p class="p2">No of Times</p>
+        <p class="p3" id="tries">0</p>
+        <div class="but" id="btn">
+            <div class="but1">
+                <input type="submit" value="check" onclick="findNumber()">
+            </div>
+            <div class="but2">
+                <input type="submit" value="reset"onclick="window.location.reload()">
+            </div>
+        </div>
+
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>
